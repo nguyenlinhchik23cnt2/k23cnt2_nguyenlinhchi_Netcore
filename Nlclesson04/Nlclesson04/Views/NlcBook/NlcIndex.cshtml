@@ -1,0 +1,27 @@
+﻿@model List<Nlclesson04.Models.NlcBook>
+
+<h2>Danh sách Sách</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Book ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (NlcBook nlcItem in Model)
+        {
+           <tr>
+               <td>@nlcItem.NlcId</td>
+                <td>@nlcItem.NlcTitle</td>
+                <td>@nlcItem.NlcDescription </td>
+                <td><img src="@nlcItem.NlcImage" alt="@nlcItem.NlcTitle" width="100" /></td>
+                <td>@nlcItem.NlcPrice</td>
+           </tr>
+        }
+    </tbody>
+</table>
