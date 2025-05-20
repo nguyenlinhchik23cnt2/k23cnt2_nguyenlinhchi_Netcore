@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\k23cnt2_nguyenlinhchi_Netcore\\Nlclesson04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{442C1930-FF03-4002-A6FF-F4351394FF9D}|Nlclesson04\\Nlclesson04.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\nlclesson04\\nlclesson04\\views\\nlcbook\\nlcindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{442C1930-FF03-4002-A6FF-F4351394FF9D}|Nlclesson04\\Nlclesson04.csproj|solutionrelative:nlclesson04\\views\\nlcbook\\nlcindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{442C1930-FF03-4002-A6FF-F4351394FF9D}|Nlclesson04\\Nlclesson04.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\nlclesson04\\nlclesson04\\controllers\\nlcbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{442C1930-FF03-4002-A6FF-F4351394FF9D}|Nlclesson04\\Nlclesson04.csproj|solutionrelative:nlclesson04\\controllers\\nlcbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442C1930-FF03-4002-A6FF-F4351394FF9D}|Nlclesson04\\Nlclesson04.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\nlclesson04\\nlclesson04\\views\\nlcbook\\themmoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{442C1930-FF03-4002-A6FF-F4351394FF9D}|Nlclesson04\\Nlclesson04.csproj|solutionrelative:nlclesson04\\views\\nlcbook\\themmoi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442C1930-FF03-4002-A6FF-F4351394FF9D}|Nlclesson04\\Nlclesson04.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\nlclesson04\\nlclesson04\\views\\nlcbook\\nlcindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{442C1930-FF03-4002-A6FF-F4351394FF9D}|Nlclesson04\\Nlclesson04.csproj|solutionrelative:nlclesson04\\views\\nlcbook\\nlcindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{442C1930-FF03-4002-A6FF-F4351394FF9D}|Nlclesson04\\Nlclesson04.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\nlclesson04\\nlclesson04\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,37 +42,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "themmoi.cshtml",
+              "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\Nlclesson04\\Nlclesson04\\Views\\NlcBook\\themmoi.cshtml",
+              "RelativeDocumentMoniker": "Nlclesson04\\Views\\NlcBook\\themmoi.cshtml",
+              "ToolTip": "D:\\k23cnt2_nguyenlinhchi_Netcore\\Nlclesson04\\Nlclesson04\\Views\\NlcBook\\themmoi.cshtml",
+              "RelativeToolTip": "Nlclesson04\\Views\\NlcBook\\themmoi.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-17T16:03:34.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "NlcIndex.cshtml",
               "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\Nlclesson04\\Nlclesson04\\Views\\NlcBook\\NlcIndex.cshtml",
               "RelativeDocumentMoniker": "Nlclesson04\\Views\\NlcBook\\NlcIndex.cshtml",
               "ToolTip": "D:\\k23cnt2_nguyenlinhchi_Netcore\\Nlclesson04\\Nlclesson04\\Views\\NlcBook\\NlcIndex.cshtml",
               "RelativeToolTip": "Nlclesson04\\Views\\NlcBook\\NlcIndex.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-17T15:25:01.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "NlcBookController.cs",
               "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\Nlclesson04\\Nlclesson04\\Controllers\\NlcBookController.cs",
               "RelativeDocumentMoniker": "Nlclesson04\\Controllers\\NlcBookController.cs",
               "ToolTip": "D:\\k23cnt2_nguyenlinhchi_Netcore\\Nlclesson04\\Nlclesson04\\Controllers\\NlcBookController.cs",
               "RelativeToolTip": "Nlclesson04\\Controllers\\NlcBookController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwE4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T15:12:46.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Header.cshtml",
               "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\Nlclesson04\\Nlclesson04\\Views\\Shared\\_Header.cshtml",
               "RelativeDocumentMoniker": "Nlclesson04\\Views\\Shared\\_Header.cshtml",
@@ -81,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NlcBook.cs",
               "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\Nlclesson04\\Nlclesson04\\Models\\NlcBook.cs",
               "RelativeDocumentMoniker": "Nlclesson04\\Models\\NlcBook.cs",
@@ -94,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "NlcAbout.cshtml",
               "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\Nlclesson04\\Nlclesson04\\Views\\NlcHome\\NlcAbout.cshtml",
               "RelativeDocumentMoniker": "Nlclesson04\\Views\\NlcHome\\NlcAbout.cshtml",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Nlc_Layout.cshtml",
               "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\Nlclesson04\\Nlclesson04\\Views\\Shared\\Nlc_Layout.cshtml",
               "RelativeDocumentMoniker": "Nlclesson04\\Views\\Shared\\Nlc_Layout.cshtml",
@@ -120,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Footer.cshtml",
               "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\Nlclesson04\\Nlclesson04\\Views\\Shared\\_Footer.cshtml",
               "RelativeDocumentMoniker": "Nlclesson04\\Views\\Shared\\_Footer.cshtml",
