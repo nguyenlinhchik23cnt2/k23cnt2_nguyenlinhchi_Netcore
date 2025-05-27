@@ -1,0 +1,63 @@
+﻿@model List<NlcLab06.Models.NlcEmployee>
+
+@{
+    ViewData["Title"] = "Danh sách nhân viên ";
+}
+
+<h2 class="text-primary">Danh sách nhân viên (NLC)</h2>
+
+<a href="@Url.Action("NlcCreate", "NlcEmployee")" class="btn btn-primary">
+    Thêm nhân viên mới
+</a>
+
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Họ tên</th>
+            <th>Ngày sinh</th>
+            <th>Email</th>
+            <th>Điện thoại</th>
+            <th>Lương</th>
+            <th>Trạng thái</th>
+            <th>Hành động </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Nlcemp in Model)
+        {
+            <tr>
+                <td>@Nlcemp.NlcId</td>
+                <td>@Nlcemp.NlcName</td>
+                <td>@Nlcemp.NlcBirthDay.ToShortDateString()</td>
+                <td>@Nlcemp.NlcEmail</td>
+                <td>@Nlcemp.NlcPhone</td>
+                <td>@Nlcemp.NlcSalary.ToString("N0") đ</td>
+                <td>
+                    @if (Nlcemp.NlcStatus == "Đang làm")
+                    {
+                        <span class="badge bg-success">Đang làm</span>
+                    }
+                    else if (Nlcemp.NlcStatus == "sinh viên")
+                    {
+                        <span class="badge bg-info">Sinh viên</span>
+                    }
+                    else if (Nlcemp.NlcStatus == "Nghỉ việc")
+                    {
+                        <span class="badge bg-danger">Nghỉ việc</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">Khác</span>
+                    }
+                </td>
+
+                <td>
+                    <a href="@Url.Action("NlcEdit", "NlcEmployee", new { id = Nlcemp.NlcId })" class="btn btn-warning btn-sm">Sửa</a>
+                    <a href="@Url.Action("NlcDelete", "NlcEmployee", new { id = Nlcemp.NlcId })" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc muốn xóa?');">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

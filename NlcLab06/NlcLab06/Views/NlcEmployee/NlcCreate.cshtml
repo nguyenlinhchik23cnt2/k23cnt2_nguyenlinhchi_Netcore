@@ -1,0 +1,59 @@
+﻿@model NlcLab06.Models.NlcEmployee
+
+@{
+    ViewData["Title"] = "Thêm nhân viên mới";
+}
+
+<h2 class="text-primary">Thêm nhân viên mới (NLC)</h2>
+
+<form asp-action="NlcCreateSubmit" method="post">
+    <div class="mb-3">
+        <label asp-for="NlcName" class="form-label">Họ tên</label>
+        <input asp-for="NlcName" class="form-control" />
+        <span asp-validation-for="NlcName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NlcBirthDay" class="form-label">Ngày sinh</label>
+        <input asp-for="NlcBirthDay" class="form-control" type="date" />
+        <span asp-validation-for="NlcBirthDay" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NlcEmail" class="form-label">Email</label>
+        <input asp-for="NlcEmail" class="form-control" />
+        <span asp-validation-for="NlcEmail" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NlcPhone" class="form-label">Điện thoại</label>
+        <input asp-for="NlcPhone" class="form-control" />
+        <span asp-validation-for="NlcPhone" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NlcSalary" class="form-label">Lương</label>
+        <input asp-for="NlcSalary" class="form-control" type="number" />
+        <span asp-validation-for="NlcSalary" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NlcStatus" class="form-label">Trạng thái</label>
+        <select asp-for="NlcStatus" class="form-select">
+            <option value="">-- Chọn trạng thái --</option>
+            <option value="Đang làm">Đang làm</option>
+            <option value="sinh viên">Sinh viên</option>
+            <option value="Nghỉ việc">Nghỉ việc</option>
+        </select>
+        <span asp-validation-for="NlcStatus" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Thêm mới</button>
+    <a asp-action="NlcIndex" class="btn btn-secondary">Quay lại</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
