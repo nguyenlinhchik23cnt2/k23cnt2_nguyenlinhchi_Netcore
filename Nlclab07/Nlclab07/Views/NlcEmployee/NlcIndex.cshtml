@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Nlclab07.Models.NlcEmployee>
+
+@{
+    ViewData["Title"] = "NlcIndex";
+}
+
+<h1>NlcIndex</h1>
+
+<p>
+    <a asp-action="NlcCreate" class="btn btn-primary">Create </a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcBirthDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcSalary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcBirthDay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcSalary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcStatus)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "NlcEdit", new {  id=item.NlcId  }) |
+                    @Html.ActionLink("Details", "NlcDetails", new { id = item.NlcId }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

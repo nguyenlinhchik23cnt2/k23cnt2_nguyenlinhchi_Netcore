@@ -38,8 +38,7 @@
               "RelativeToolTip": "NlcLab06\\Views\\NlcEmployee\\NlcEdit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T03:35:37.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T03:35:37.978Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "NlcLab06\\Views\\NlcEmployee\\NlcIndex.cshtml",
               "ViewState": "AgIAABoAAAAAAAAAAAAQwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T02:31:43.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:31:43.977Z"
             },
             {
               "$type": "Document",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "NlcLab06\\Views\\NlcEmployee\\NlcCreate.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T02:56:40.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:56:40.304Z"
             },
             {
               "$type": "Document",
@@ -75,7 +72,7 @@
               "RelativeDocumentMoniker": "NlcLab06\\Controllers\\NlcEmployeeController.cs",
               "ToolTip": "D:\\k23cnt2_nguyenlinhchi_Netcore\\NlcLab06\\NlcLab06\\Controllers\\NlcEmployeeController.cs",
               "RelativeToolTip": "NlcLab06\\Controllers\\NlcEmployeeController.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAgwI4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAgwIIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T01:44:50.878Z",
               "EditorCaption": ""
