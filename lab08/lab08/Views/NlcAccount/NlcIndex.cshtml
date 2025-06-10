@@ -1,0 +1,89 @@
+﻿@model IEnumerable<lab08.Models.NlcAccount>
+
+@{
+    ViewData["Title"] = "NlcIndex";
+}
+
+<h1>NlcIndex</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-danger" >Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcAvatar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcBirthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcFacebook)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcAvatar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcBirthday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcGender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcFacebook)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

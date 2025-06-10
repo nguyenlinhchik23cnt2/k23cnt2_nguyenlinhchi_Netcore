@@ -1,0 +1,75 @@
+﻿@model lab08.Models.NlcAccount
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>NlcAccount</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4" >
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NlcId" class="control-label"></label>
+                <input asp-for="NlcId" class="form-control" />
+                <span asp-validation-for="NlcId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NlcFullName" class="control-label"></label>
+                <input asp-for="NlcFullName" class="form-control" />
+                <span asp-validation-for="NlcFullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NlcEmail" class="control-label"></label>
+                <input asp-for="NlcEmail" class="form-control" />
+                <span asp-validation-for="NlcEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NlcPhone" class="control-label"></label>
+                <input asp-for="NlcPhone" class="form-control" />
+                <span asp-validation-for="NlcPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NlcAddress" class="control-label"></label>
+                <input asp-for="NlcAddress" class="form-control" />
+                <span asp-validation-for="NlcAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NlcAvatar" class="control-label"></label>
+                <input asp-for="NlcAvatar" class="form-control" />
+                <span asp-validation-for="NlcAvatar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NlcBirthday" class="control-label"></label>
+                <input asp-for="NlcBirthday" class="form-control" />
+                <span asp-validation-for="NlcBirthday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NlcGender" class="control-label"></label>
+                <input asp-for="NlcGender" class="form-control" />
+                <span asp-validation-for="NlcGender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NlcPassword" class="control-label"></label>
+                <input asp-for="NlcPassword" class="form-control" />
+                <span asp-validation-for="NlcPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NlcFacebook" class="control-label"></label>
+                <input asp-for="NlcFacebook" class="form-control" />
+                <span asp-validation-for="NlcFacebook" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NlcIndex">Back to List</a>
+</div>
+
