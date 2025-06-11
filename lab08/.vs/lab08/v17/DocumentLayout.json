@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|solutionrelative:lab08\\controllers\\nlcaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\lab08\\lab08\\views\\nlcaccount\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|solutionrelative:lab08\\views\\nlcaccount\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\lab08\\lab08\\views\\nlcaccount\\nlcindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|solutionrelative:lab08\\views\\nlcaccount\\nlcindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\lab08\\lab08\\models\\nlcaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|solutionrelative:lab08\\models\\nlcaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,28 +23,20 @@
       "RelativeMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|solutionrelative:lab08\\views\\nlcaccount\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\lab08\\lab08\\views\\nlcaccount\\nlcindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|solutionrelative:lab08\\views\\nlcaccount\\nlcindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\lab08\\lab08\\views\\nlchome\\nlcabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|solutionrelative:lab08\\views\\nlchome\\nlcabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\lab08\\lab08\\controllers\\nlchomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|solutionrelative:lab08\\controllers\\nlchomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\lab08\\lab08\\views\\shared\\nlc_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|solutionrelative:lab08\\views\\shared\\nlc_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\lab08\\lab08\\views\\nlchome\\nlcabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|solutionrelative:lab08\\views\\nlchome\\nlcabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\lab08\\lab08\\views\\nlchome\\nlcindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|solutionrelative:lab08\\views\\nlchome\\nlcindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\lab08\\lab08\\views\\nlcaccount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|solutionrelative:lab08\\views\\nlcaccount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\lab08\\lab08\\views\\shared\\nlc_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|solutionrelative:lab08\\views\\shared\\nlc_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D61982CB-2A41-4616-A28D-3E5D08224574}|lab08\\lab08.csproj|d:\\k23cnt2_nguyenlinhchi_netcore\\lab08\\lab08\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,44 +50,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Views\\NlcAccount\\Edit.cshtml",
-              "RelativeDocumentMoniker": "lab08\\Views\\NlcAccount\\Edit.cshtml",
-              "ToolTip": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Views\\NlcAccount\\Edit.cshtml",
-              "RelativeToolTip": "lab08\\Views\\NlcAccount\\Edit.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEUAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Views\\NlcAccount\\Delete.cshtml",
+              "RelativeDocumentMoniker": "lab08\\Views\\NlcAccount\\Delete.cshtml",
+              "ToolTip": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Views\\NlcAccount\\Delete.cshtml",
+              "RelativeToolTip": "lab08\\Views\\NlcAccount\\Delete.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAE8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T04:04:39.397Z",
+              "WhenOpened": "2025-06-11T08:08:05.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Views\\NlcAccount\\Create.cshtml",
-              "RelativeDocumentMoniker": "lab08\\Views\\NlcAccount\\Create.cshtml",
-              "ToolTip": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Views\\NlcAccount\\Create.cshtml",
-              "RelativeToolTip": "lab08\\Views\\NlcAccount\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T03:22:45.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "NlcIndex.cshtml",
               "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Views\\NlcAccount\\NlcIndex.cshtml",
               "RelativeDocumentMoniker": "lab08\\Views\\NlcAccount\\NlcIndex.cshtml",
               "ToolTip": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Views\\NlcAccount\\NlcIndex.cshtml",
               "RelativeToolTip": "lab08\\Views\\NlcAccount\\NlcIndex.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T02:10:46.41Z"
+              "WhenOpened": "2025-06-10T02:10:46.41Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -97,27 +86,38 @@
               "RelativeDocumentMoniker": "lab08\\Controllers\\NlcAccountController.cs",
               "ToolTip": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Controllers\\NlcAccountController.cs",
               "RelativeToolTip": "lab08\\Controllers\\NlcAccountController.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAAwJ4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAQwLYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T02:03:26.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Views\\NlcAccount\\Edit.cshtml",
+              "RelativeDocumentMoniker": "lab08\\Views\\NlcAccount\\Edit.cshtml",
+              "ToolTip": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Views\\NlcAccount\\Edit.cshtml",
+              "RelativeToolTip": "lab08\\Views\\NlcAccount\\Edit.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T04:04:39.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "NlcAccount.cs",
               "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Models\\NlcAccount.cs",
               "RelativeDocumentMoniker": "lab08\\Models\\NlcAccount.cs",
               "ToolTip": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Models\\NlcAccount.cs",
               "RelativeToolTip": "lab08\\Models\\NlcAccount.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T03:49:43.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T03:49:43.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "NlcAbout.cshtml",
               "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Views\\NlcHome\\NlcAbout.cshtml",
               "RelativeDocumentMoniker": "lab08\\Views\\NlcHome\\NlcAbout.cshtml",
@@ -129,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "NlcHomeController.cs",
               "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Controllers\\NlcHomeController.cs",
               "RelativeDocumentMoniker": "lab08\\Controllers\\NlcHomeController.cs",
@@ -165,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Nlc_Layout.cshtml",
               "DocumentMoniker": "D:\\k23cnt2_nguyenlinhchi_Netcore\\lab08\\lab08\\Views\\Shared\\Nlc_Layout.cshtml",
               "RelativeDocumentMoniker": "lab08\\Views\\Shared\\Nlc_Layout.cshtml",

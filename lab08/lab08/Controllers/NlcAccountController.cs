@@ -127,55 +127,56 @@ namespace lab08.Controllers
 
         // POST: NlcAccountController/Edit/5
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+[ValidateAntiForgeryToken]
+public ActionResult Edit(int id, NlcAccount updatedAccount)
+{
+    try
+    {
+        var index = nlcListAccount.FindIndex(x => x.NlcId == id);
+        if (index >= 0)
+        {
+            nlcListAccount[index] = updatedAccount;
+        }
+        return RedirectToAction(nameof(NlcIndex));
+    }
+    catch
+    {
+        return View(updatedAccount);
+    }
+}
+
+
+        // GET: NlcAccountController/Delete/5
+        // GET: NlcAccountController/Delete/5
+        public ActionResult Delete(int id)
         {
             var acc = nlcListAccount.FirstOrDefault(x => x.NlcId == id);
             if (acc == null)
             {
                 return NotFound();
             }
-
-            try
-            {
-                // Cập nhật thông tin từ form
-                acc.NlcFullName = collection["NlcFullName"];
-                acc.NlcEmail = collection["NlcEmail"];
-                acc.NlcPhone = collection["NlcPhone"];
-                acc.NlcAddress = collection["NlcAddress"];
-                acc.NlcAvatar = collection["NlcAvatar"];
-                acc.NlcBirthday = DateTime.Parse(collection["NlcBirthday"]);
-                acc.NlcGender = collection["NlcGender"];
-                acc.NlcPassword = collection["NlcPassword"];
-                acc.NlcFacebook = collection["NlcFacebook"];
-
-                return RedirectToAction(nameof(NlcIndex)); // hoặc Index nếu tên đúng là vậy
-            }
-            catch
-            {
-                return View(acc);
-            }
-        }
-
-        // GET: NlcAccountController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
+            return View(acc);
         }
 
         // POST: NlcAccountController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id, lab08.Models.NlcAccount collection)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var acc = nlcListAccount.FirstOrDefault(x => x.NlcId == id);
+                if (acc != null)
+                {
+                    nlcListAccount.Remove(acc);
+                }
+                return RedirectToAction(nameof(NlcIndex));
             }
             catch
             {
-                return View();
+                return View(collection);
             }
         }
+
     }
 }
