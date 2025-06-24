@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Nlclesson10.Models.NlcCate>
+
+@{
+    ViewData["Title"] = "danh muc loai";
+}
+
+<h1> @ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="NlcCreate" class="btn btn-primary">them moi</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CatId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CateName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CateStatus)
+            </th>
+            <th> chuc nang</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CatId)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CateName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CateStatus)
+            </td>
+            <td>
+                    @if (item.CateStatus == true)
+                    {
+                        
+                        <text>hien thi</text>
+                    }
+                    else
+                    {
+                        <text>tam khoa </text>
+
+                    }
+
+            </td>
+            <td>
+                <a asp-action="NlcEdit" asp-route-id="@item.CatId">Edit</a> |
+                <a asp-action="NlcDetails" asp-route-id="@item.CatId">Details</a> |
+                <a asp-action="NlcDelete" asp-route-id="@item.CatId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
