@@ -26,20 +26,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\k23cnt2_nguyenlinhchi_Netcore\Nlclesson10\Nlclesson10
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/k23cnt2_nguyenlinhchi_Netcore/Nlclesson10/Nlclesson10/Views/NlcCates/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmxjQ2F0ZXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/k23cnt2_nguyenlinhchi_Netcore/Nlclesson10/Nlclesson10/Views/NlcCates/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmxjQ2F0ZXNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/k23cnt2_nguyenlinhchi_Netcore/Nlclesson10/Nlclesson10/Views/NlcCates/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmxjQ2F0ZXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/k23cnt2_nguyenlinhchi_Netcore/Nlclesson10/Nlclesson10/Views/NlcCates/NlcCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmxjQ2F0ZXNcTmxjQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/k23cnt2_nguyenlinhchi_Netcore/Nlclesson10/Nlclesson10/Views/NlcCates/NlcDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmxjQ2F0ZXNcTmxjRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/k23cnt2_nguyenlinhchi_Netcore/Nlclesson10/Nlclesson10/Views/NlcCates/NlcDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmxjQ2F0ZXNcTmxjRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/k23cnt2_nguyenlinhchi_Netcore/Nlclesson10/Nlclesson10/Views/NlcCates/NlcEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmxjQ2F0ZXNcTmxjRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/k23cnt2_nguyenlinhchi_Netcore/Nlclesson10/Nlclesson10/Views/NlcCates/NlcIndex.cshtml]

@@ -1,16 +1,19 @@
 ﻿@model Nlclesson10.Models.NlcCate
 
 @{
-    ViewData["Title"] = "them moi";
+    ViewData["Title"] = "sua thong tin";
 }
 
-<h1>Create</h1>
 
-<h4>NlcCate</h4>
 <hr />
+
+
+
+
+
 <div class="row">
     <div class="col-md-6">
-        <form asp-action="NlcCreate">
+        <form asp-action="NlcEdit">
             <div class="card">
 
                 <div class="card-header">
@@ -22,8 +25,8 @@
 
                     <div class="form-group">
                         <label asp-for="CatId" class="control-label"></label>
-                        <input asp-for="CatId" class="form-control" />
-                        <span asp-validation-for="CatId" class="text-danger"></span>
+                        <input asp-for="CatId" class="form-control" readonly />
+                        
                     </div>
                     <div class="form-group">
                         <label asp-for="CateName" class="control-label"></label>
@@ -39,7 +42,7 @@
                 <div class="card-footer">
 
                     <div class="form-group">
-                        <input type="submit" value="ghi lai" class="btn btn-primary" name="btnNlcCreate" />
+                        <input type="submit" value="ghi lai" class="btn btn-primary" name="btnNlcupdate" />
                         <div>
                             <a asp-action="NlcIndex">Back to List</a>
                         </div>
@@ -48,19 +51,12 @@
             </div>
 
 
-            
-            
-            
+
+
+
         </form>
     </div>
 </div>
-
-
-        
-
-
-
-
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

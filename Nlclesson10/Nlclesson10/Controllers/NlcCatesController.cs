@@ -25,7 +25,7 @@ namespace Nlclesson10.Controllers
         }
 
         // GET: NlcCates/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> NlcDetails(int? id)
         {
             if (id == null)
             {
@@ -59,13 +59,13 @@ namespace Nlclesson10.Controllers
             {
                 _context.Add(nlcCate);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(NlcIndex));
             }
             return View(nlcCate);
         }
 
         // GET: NlcCates/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> NlcEdit(int? id)
         {
             if (id == null)
             {
@@ -85,7 +85,7 @@ namespace Nlclesson10.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CatId,CateName,CateStatus")] NlcCate nlcCate)
+        public async Task<IActionResult> NlcEdit(int id, [Bind("CatId,CateName,CateStatus")] NlcCate nlcCate)
         {
             if (id != nlcCate.CatId)
             {
@@ -110,13 +110,13 @@ namespace Nlclesson10.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(NlcIndex));
             }
             return View(nlcCate);
         }
 
         // GET: NlcCates/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> NlcDelete(int? id)
         {
             if (id == null)
             {
@@ -134,7 +134,7 @@ namespace Nlclesson10.Controllers
         }
 
         // POST: NlcCates/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("NlcDelete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
@@ -145,7 +145,7 @@ namespace Nlclesson10.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(NlcIndex));
         }
 
         private bool NlcCateExists(int id)
