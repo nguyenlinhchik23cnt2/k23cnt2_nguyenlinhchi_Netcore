@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Nlc_2310900014.Models.NlcEmployee>
+
+@{
+    ViewData["Title"] = "NlcIndex";
+}
+
+
+
+<p>
+    <a asp-action="NlcCreate" class="btn btn-danger">them moi</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcEmpName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcEmpLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcEmpStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NlcEmpStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcEmpName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcEmpLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcEmpStartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NlcEmpStatus)
+                    @if (item.NlcEmpStatus == true)
+                    {
+                        
+                        <text> Show</text>
+
+                    }
+                    else
+                    {
+                       <text> Hide</text>
+                    }
+                </td>
+            <td>
+                <a asp-action="NlcEdit" asp-route-id="@item.NlcEmpId">Edit</a> |
+                <a asp-action="NlcDetails" asp-route-id="@item.NlcEmpId">Details</a> |
+                <a asp-action="NlcDelete" asp-route-id="@item.NlcEmpId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,52 @@
+﻿@model Nlc_2310900014.Models.NlcEmployee
+
+@{
+    ViewData["Title"] = "xem thoon tin danh sach";
+}
+
+
+
+
+<div class="row">
+<div class="card-header">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+</div>
+<div class="card-body">
+    <div class="form-group">
+        <label asp-for="NlcEmpId" class="control-label"></label>
+        <input asp-for="NlcEmpId" class="form-control" />
+        <span asp-validation-for="NlcEmpId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NlcEmpName" class="control-label"></label>
+        <input asp-for="NlcEmpName" class="form-control" />
+        <span asp-validation-for="NlcEmpName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NlcEmpLevel" class="control-label"></label>
+        <input asp-for="NlcEmpLevel" class="form-control" />
+        <span asp-validation-for="NlcEmpLevel" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NlcEmpStartDate" class="control-label"></label>
+        <input asp-for="NlcEmpStartDate" class="form-control" />
+        <span asp-validation-for="NlcEmpStartDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NlcEmpStatus" class="control-label"></label>
+        <input asp-for="NlcEmpStatus" class="form-control" />
+        <span asp-validation-for="NlcEmpStatus" class="text-danger"></span>
+    </div>
+</div>
+<div class="card-footer">
+    <div class="form-group">
+        <input type="submit" value="ghi lai" class="btn btn-primary" />
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.NlcEmpId">Edit</a>
+        <a asp-action="NlcIndex">Back to List</a>
+    </div>
+
+</div>
+</div>
